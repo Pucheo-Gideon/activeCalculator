@@ -204,31 +204,13 @@ justify-content: center;
 /* Media Queries */
 @media (max-width:1444px) {
     main{
-    width:30%;
+    width:250px
  }
 }
 
-  @media (max-width:850px) {
+  @media (min-width:375px) {
   main{
-  width: 30%;
+  width: 300px;
 }
   }
-  @media (max-width:600px) {
-  main{
-  width: 50%;
-}
-  }
-  @media (max-width:300px) {
-  main{
-  width: 80%;
-}
-  }
-  
-  @media (max-width:220px) {
-  main{
-  width: 120%;
-}
-  /* .rows{
-    width: 80%;
-  } */
-  }
+
