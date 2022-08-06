@@ -46,7 +46,7 @@ arr.forEach((element, index) => {
     element.style.opacity = "1";
     if (index == 0) {
       monitor.style.backgroundColor = "hsl(224, 36%, 15%)";
-      monitor.style.color ="white";
+      monitor.style.color = "hsl(0, 0, 100%)";
       document.getElementsByTagName("body")[0].style.backgroundColor = "hsl(222, 26%, 31%)";
       document.getElementsByClassName("bigContainer")[0].style.backgroundColor="hsl(222, 26%, 31%)";
       document.getElementsByClassName("digitContainer")[0].style.backgroundColor =" hsl(223, 31%, 20%)";
